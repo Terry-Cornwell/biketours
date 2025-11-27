@@ -1,0 +1,17 @@
+{
+  "name": "@biketours/functions",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.4.0",
+    "@biketours/shared": "^0.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
