@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": ["@azure/functions"]
+  },
+  "include": ["src/**/*", "api/**/*"],
+  "references": [
+    { "path": "../../packages/shared" }
+  ]
+}

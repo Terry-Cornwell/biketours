@@ -1,0 +1,17 @@
+{
+  "name": "biketours-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/functions",
+    "packages/shared"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.0"
+  }
+}
